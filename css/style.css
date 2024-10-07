@@ -17,7 +17,31 @@
     background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
-
+@media(width< 1000px) {
+	.named{
+		font-size: 80px!important;
+	}
+}
+@media(width< 800px) {
+	.named{
+		font-size: 70px!important;
+	}
+}
+@media(width< 500px) {
+	.named{
+		font-size: 60px!important;
+	}
+}
+@media(width< 420px) {
+	.named{
+		font-size: 50px!important;
+	}
+}
+@media(width< 336px) {
+	.named{
+		font-size: 40px!important;
+	}
+}
 
 
 
@@ -378,7 +402,7 @@ table {
 /* Menu */
 .menu-wrap {
 	z-index:999;
-	background: rgb(23, 23, 23);
+	background: #f9f9f9;
 	-webkit-transition:width 0.4s,height 0.4s,-webkit-transform 0.4s;
 	transition:width 0.4s,height 0.4s,transform 0.4s;
 	-webkit-transition-timing-function:cubic-bezier(0.7,0,0.3,1);
@@ -457,7 +481,7 @@ table {
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #000000;
+	background-color: #f9f9f9;
 }
 .hero h1 {
 	font-size: 120px;
@@ -731,8 +755,8 @@ img.grayscale {
 	/* Chrome 19+& Safari 6+*/ -webkit-transition:all .6s ease;
 	/* Fade to color for Chrome and Safari */ -webkit-backface-visibility:hidden;
 	/* Fix for transition flickering */
-	height: 100px;
-	width: 340px;
+	height: 80px;
+	width: 300px;
 }
 img.grayscale:hover {
 	filter:none;
